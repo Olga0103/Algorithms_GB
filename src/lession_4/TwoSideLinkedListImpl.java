@@ -14,14 +14,12 @@ public class TwoSideLinkedListImpl<E>
         }
     }
 
-
     @Override
     public E removeFirst() {
         E removeValue = super.removeFirst();
         if (isEmpty()) {
             lastElement = null;
         }
-
         return removeValue;
     }
 
@@ -34,7 +32,6 @@ public class TwoSideLinkedListImpl<E>
             if (current.item.equals(value)) {
                 break;
             }
-
             previous = current;
             current = current.next;
         }
@@ -42,7 +39,6 @@ public class TwoSideLinkedListImpl<E>
         if (current == null) {
             return false;
         }
-
         if (size == 1) {
             removeFirst();
             return true;
@@ -76,4 +72,5 @@ public class TwoSideLinkedListImpl<E>
         lastElement = newNode;
         size++;
     }
+
 }

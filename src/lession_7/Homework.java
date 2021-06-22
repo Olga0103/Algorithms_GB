@@ -24,4 +24,5 @@ public class Homework {
         assert bfs.hasPathTo(9);
         System.out.println("Кратчайший путь: "+ bfs.pathTo(9));
     }
+
 }

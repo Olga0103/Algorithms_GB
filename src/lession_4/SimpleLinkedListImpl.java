@@ -171,7 +171,6 @@ public class SimpleLinkedListImpl<E> implements LinkedList<E> {
                 previous.next = newItem;
                 current = newItem;
             }
-
         }
 
         @Override
@@ -188,4 +187,5 @@ public class SimpleLinkedListImpl<E> implements LinkedList<E> {
         }
 
     }
+
 }

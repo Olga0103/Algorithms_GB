@@ -12,7 +12,7 @@ public class Main {
     }
 
     private static void testLinkedList() {
-//        LinkedList<Integer> linkedList = new SimpleLinkedListImpl<>();
+
         TwoSideLinkedList<Integer> linkedList = new TwoSideLinkedListImpl<>();
         linkedList.insertFirst(1);
         linkedList.insertFirst(2);
@@ -64,4 +64,5 @@ public class Main {
             System.out.println(value);
         }
     }
+
 }

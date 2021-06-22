@@ -1,15 +1,12 @@
 package lession_2;
 
-import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
 
-import static java.util.List.of;
 
 public class Main {
-    private static int i;
 
+    private static int i;
 
     public static void main(String[] args) throws InterruptedException {
 
@@ -29,22 +26,8 @@ public class Main {
             System.out.print(copyArr[i] + " ");
         }
 
-
         ExecutorService executorService = Executors.newFixedThreadPool(3);
 
-  /*      List<Runnable> tasks = of(
-                Timer(copyArr::sortBubble, "Sort Bubble"),
-                Timer(copyArr::sortSelect, "Sort Select"),
-                Timer(copyArr::sortInsert, "Sort Insert")
-        )
-
-        for (Runnable task : tasks) {
-            task.run();
-        }
-
-        executorService.shutdown();
-        executorService.awaitTermination(1, TimeUnit.MINUTES);*/
-
-
     }
+
 }

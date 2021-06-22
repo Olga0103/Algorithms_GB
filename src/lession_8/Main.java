@@ -2,6 +2,7 @@ package lession_8;
 
 public class Main {
     public static void main(String[] args) {
+
         ChainingHashMap<Integer ,String> map = new ChainingHashMap<>();
         map.put(1,"one");
         map.put(2,"two");

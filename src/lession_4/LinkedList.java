@@ -18,8 +18,6 @@ public interface LinkedList<E> extends Iterable<E> {
 
     E getFirst();
 
-
-
     class Node<E> {
         E item;
         Node<E> next;

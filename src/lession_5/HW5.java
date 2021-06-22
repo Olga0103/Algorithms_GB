@@ -10,7 +10,6 @@ public class HW5 {
         System.out.println(exponentiation(6, 0));
         System.out.println(exponentiation(9, 6));
         System.out.println(exponentiation(2, -3));
-
     }
 
     public static int exponentiation(int value, int rank) {
@@ -31,5 +30,5 @@ public class HW5 {
         }
     }
 
-
 }
+

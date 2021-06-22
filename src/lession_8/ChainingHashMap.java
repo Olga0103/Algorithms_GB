@@ -3,6 +3,7 @@ package lession_8;
 import java.util.LinkedList;
 
 public class ChainingHashMap<Key, Value> {
+
     private int capacity = 7;
     private int size = 0;
     private LinkedList<Node>[] st;
@@ -101,4 +102,5 @@ public class ChainingHashMap<Key, Value> {
         }
         return sb.toString();
     }
+
 }

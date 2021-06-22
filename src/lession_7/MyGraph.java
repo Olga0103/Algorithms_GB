@@ -3,6 +3,7 @@ package lession_7;
 import java.util.LinkedList;
 
 public class MyGraph {
+
     private int vertexCount;
     private int edgeCount;
     private LinkedList<Integer>[] adjLists;
@@ -41,4 +42,5 @@ public class MyGraph {
         }
         return adjLists[v];
     }
+
 }

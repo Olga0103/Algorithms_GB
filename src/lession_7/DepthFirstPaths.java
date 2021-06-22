@@ -3,6 +3,7 @@ package lession_7;
 import java.util.LinkedList;
 
 public class DepthFirstPaths {
+
     private boolean[] marked;
     private int[] edgeTo;
     private int source;
@@ -51,4 +52,5 @@ public class DepthFirstPaths {
         }
         return stack;
     }
+
 }

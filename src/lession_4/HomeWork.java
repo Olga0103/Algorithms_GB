@@ -30,7 +30,6 @@ public class HomeWork {
             displayAll(list);
             System.out.println("*");
         }
-
     }
 
     private static void displayAll(LinkedList<Integer> list) {
@@ -38,4 +37,5 @@ public class HomeWork {
             System.out.println(value);
         }
     }
+
 }

@@ -7,15 +7,11 @@ public class Main extends Deque {
     }
 
     public static void main(String[] args) throws FullDeque {
-//
-//        Reverser reverser = new Reverser();
-//        reverser.reverse(reverser.setString());
 
         deque();
     }
 
     private static void deque () throws FullDeque {
-
 
         Main deque = new Main(10);
         for (int i = 0; i < 10; i++) {
@@ -54,11 +50,7 @@ public class Main extends Deque {
         deque.insertLeft(111);
         System.out.println(deque.getHead() + " " + deque.getTail());
         System.out.println(deque);
-
-
     }
-
-
 
 }
 
