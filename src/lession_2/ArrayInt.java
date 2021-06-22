@@ -1,3 +1,5 @@
+package lession_2;
+
 public interface ArrayInt <E>{
 
     void sortBubble();

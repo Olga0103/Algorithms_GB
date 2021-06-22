@@ -1,3 +1,5 @@
+package lession_2;
+
 import java.util.concurrent.TimeUnit;
 
 public class Timer {

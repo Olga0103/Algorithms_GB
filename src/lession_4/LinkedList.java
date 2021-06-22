@@ -1,42 +1,32 @@
 package lession_4;
 
-import java.util.function.UnaryOperator;
+public interface LinkedList<E> extends Iterable<E> {
 
-public class LinkedList extends java.util.LinkedList {
-    private Link first;
+    void insertFirst(E value);
+
+    E removeFirst();
+
+    boolean remove(E value);
+
+    boolean contains(E value);
+
+    int size();
+
+    boolean isEmpty();
+
+    void display();
+
+    E getFirst();
 
 
-    public LinkedList(){
-        first = null;
 
-    }
+    class Node<E> {
+        E item;
+        Node<E> next;
 
-    public Link getFirst() {
-        return first;
-    }
-
-//    public void setFirst(Link first) {
-//        this.first = first;
-//    }
-
-    public LinkInterator getIterator(){
-        return new LinkInterator(this);
-    }
-
-    public boolean isEmpty(){
-        return (first == null);
-    }
-
-    @Override
-    public void replaceAll(UnaryOperator operator) {
-
-    }
-
-    public void display(){
-        Link current = first;
-        while(current != null){
-            current.display();
-            current = current.next;
+        public Node(E item, Node<E> next) {
+            this.item = item;
+            this.next = next;
         }
     }
 

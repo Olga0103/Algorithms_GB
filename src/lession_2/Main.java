@@ -1,3 +1,5 @@
+package lession_2;
+
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -30,18 +32,18 @@ public class Main {
 
         ExecutorService executorService = Executors.newFixedThreadPool(3);
 
-        List<Runnable> tasks = of(
+  /*      List<Runnable> tasks = of(
                 Timer(copyArr::sortBubble, "Sort Bubble"),
                 Timer(copyArr::sortSelect, "Sort Select"),
                 Timer(copyArr::sortInsert, "Sort Insert")
-        );
+        )
 
         for (Runnable task : tasks) {
             task.run();
         }
 
         executorService.shutdown();
-        executorService.awaitTermination(1, TimeUnit.MINUTES);
+        executorService.awaitTermination(1, TimeUnit.MINUTES);*/
 
 
     }

@@ -1,3 +1,5 @@
+package lession_2;
+
 public class ArrayTest <E extends Comparable<? super E>> implements ArrayInt <E>{
 
     protected E[] data;
